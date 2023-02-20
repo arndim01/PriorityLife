@@ -1,0 +1,19 @@
+'VERSION \n' +
+'TAB T=1 \n' +
+'TAB CLOSEALLOTHERS \n' +
+'SET !ERRORIGNORE YES \n' +
+'SET !TIMEOUT_STEP 100 \n' +
+'URL GOTO=https://agentlink.reliashield.com/account/login \n' +
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/call/post/auth/login ATTR=NAME:email CONTENT={usn} \n' +
+'SET !ENCRYPTION NO \n' +
+'TAG POS=1 TYPE=INPUT:PASSWORD FORM=ACTION:/call/post/auth/login ATTR=NAME:password CONTENT={pwd} \n' +
+'TAG POS=1 TYPE=BUTTON:SUBMIT FORM=ACTION:/call/post/auth/login ATTR=TXT:Login \n' +
+'WAIT SECONDS=20 \n' +
+'TAG POS=1 TYPE=A ATTR=TXT:View<SP>Sales \n' +
+'WAIT SECONDS=20 \n' +
+'ONDOWNLOAD FOLDER={{downloadpath}}\MOO\{{!NOW:yyyymmdd}}\ FILE=* WAIT=YES \n' +
+'TAG POS=1 TYPE=BUTTON:SUBMIT ATTR=TXT:Export \n' +
+'WAIT SECONDS=20 \n' +
+'TAG POS=1 TYPE=A ATTR=TXT:Logout \n' +
+'TAB CLOSEALLOTHERS \n' +
+'TAB CLOSE';

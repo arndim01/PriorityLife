@@ -1,0 +1,8 @@
+2020/11/02-20:36:25.545 4b1c Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/02-20:36:25.545 4b1c Recovering log #14
+2020/11/02-20:36:25.546 4b1c Reusing old log C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000014.log 
+2020/11/02-20:36:28.341 b1c Level-0 table #19: started
+2020/11/02-20:36:28.341 b1c Level-0 table #19: 0 bytes OK
+2020/11/02-20:36:28.350 b1c Delete type=0 #14
+2020/11/02-20:36:28.350 b1c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/02-20:36:28.351 b1c Manual compaction at level-1 from (begin) .. (end); will stop at (end)

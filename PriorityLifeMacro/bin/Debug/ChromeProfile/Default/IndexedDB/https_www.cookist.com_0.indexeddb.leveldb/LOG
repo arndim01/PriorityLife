@@ -1,0 +1,5 @@
+2020/10/29-03:51:59.638 6cb4 Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_www.cookist.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/29-03:52:09.284 7158 Level-0 table #5: started
+2020/10/29-03:52:09.297 7158 Level-0 table #5: 340 bytes OK
+2020/10/29-03:52:09.301 7158 Delete type=0 #3
+2020/10/29-03:52:09.303 7158 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

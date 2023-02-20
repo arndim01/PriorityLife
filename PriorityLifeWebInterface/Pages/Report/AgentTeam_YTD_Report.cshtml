@@ -1,0 +1,101 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Report.AgentTeam_YTD_ReportModel
+@{
+    ViewData["Title"] = "Agent Team YTD Report";
+}
+
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+@section AdditionalJavaScript {
+    <script src="~/js/jqgrid-i18n/grid.locale-en.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-jqgrid-4.13.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jqgrid-listcrudredirect.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        var urlAndMethod = '/Report/AgentTeam_YTD_Report';
+
+        $(function () {
+            $('#list-grid').jqGrid({
+                url: '/Report/AgentTeam_YTD_Report?handler=GridData',
+                datatype: 'json',
+                mtype: 'GET',
+                colNames: ['Rank', 'Team Name', 'Team Manager', 'Amount', 'AIG', 'AMERICO', 'MOO', 'GLOBAL', 'ROYAL', 'TRANS', 'ATHENE', 'AMAM', 'PROSPERITY', 'REAL SHIELD' ],
+                colModel: [
+                    { name: 'Num', index: 'Num', align: 'left', width: 40 },
+                    { name: 'TeamName', index: 'TeamName', align: 'left' },
+                    { name: 'TeamManager', index: 'TeamManager', align: 'left' },
+                    { name: 'Amount', index: 'Amount', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'AIG', index: 'AIG', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'AMERICO', index: 'AMERICO', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'MOO', index: 'MOO', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'GLOBAL', index: 'GLOBAL', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'ROYAL', index: 'ROYAL', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'TRANS', index: 'TRANS', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'ATHENE', index: 'ATHENE', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'AMAM', index: 'AMAM', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'PROSPERITY', index: 'PROSPERITY', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } },
+                    { name: 'RSHIELD', index: 'RSHIELD', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } }
+                ],
+                pager: $('#list-pager'),
+                rowNum: 10,
+                pageable: true,
+                jsonReader:
+                {
+                    page: "d.page"
+                },
+                rowList: [5, 10, 20, 50],
+                sortname: 'Num',
+                sortorder: "asc",
+                viewrecords: true,
+                caption: 'Agent Team YTD Reports',
+                height: '100%',
+                width: '1400',
+                gridComplete: function () {
+
+                }
+            });
+        });
+
+        // rename the page parameter to _page because asp.net core razor's page model
+        // does not recognize the page parameter when passed
+        $.extend(jQuery.jgrid.defaults, {
+            prmNames: {
+                page: "_page"
+            }
+        });
+    </script>
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+<div id="errorConfirmationDialog"></div>
+<div id="errorDialog"></div>
+
+<div>
+    <ul class="nav">
+        <li style="display: inline-block"><a asp-page="/Report/AgentTeam_Daily_Report">Daily</a></li>
+        <li style="display: inline-block"><a asp-page="/Report/AgentTeam_Weekly_Report">Weekly</a></li>
+        <li style="display: inline-block"><a asp-page="/Report/AgentTeam_MTD_Report">MTD</a></li>
+        <li style="display: inline-block"><a style="background-color: gold" asp-page="/Report/AgentTeam_YTD_Report">YTD</a></li>
+    </ul>
+</div>
+
+<br />
+<br />
+
+<table id="list-grid"></table>
+<div id="list-pager"></div>
+
+<br />
+<br />
+
+<div>
+    <form method="post" asp-page="/Report/AgentTeam_YTD_Report" asp-page-handler="CreateDocument">
+        <div>
+            <input type="submit" value="EXPORT EXCEL" style="width:150px;height:27px" />
+        </div>
+    </form>
+</div>

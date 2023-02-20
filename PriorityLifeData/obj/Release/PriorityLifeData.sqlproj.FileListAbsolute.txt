@@ -1,0 +1,9 @@
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Release\PriorityLifeData.dacpac
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Release\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Release\PriorityLifeData.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\Model.xml
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\refactor.xml
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\postdeploy.sql
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\predeploy.sql
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Release\PriorityLifeData.pdb

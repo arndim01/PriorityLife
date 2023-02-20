@@ -1,0 +1,5 @@
+2020/09/25-21:00:35.045 2a4c Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_sherpa.agoda.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/25-21:09:21.958 2f70 Level-0 table #5: started
+2020/09/25-21:09:21.967 2f70 Level-0 table #5: 4519 bytes OK
+2020/09/25-21:09:21.970 2f70 Delete type=0 #3
+2020/09/25-21:09:21.970 2f70 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

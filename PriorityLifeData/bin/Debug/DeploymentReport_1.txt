@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Team] (Table)
+       [dbo].[TeamDetails] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       [dbo].[FK_TeamManagerSalespersonId] (Foreign Key)
+       [dbo].[FK_TeamId] (Foreign Key)
+       [dbo].[FK_TeamMemberId] (Foreign Key)
+
+** Supporting actions

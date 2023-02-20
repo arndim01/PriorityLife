@@ -1,0 +1,23 @@
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.deps.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.dev.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.csprojAssemblyReference.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.AssemblyInfoInputs.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.AssemblyInfo.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.pdb
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.deps.json
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.json
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.dev.json
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.dll
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Debug\netcoreapp2.1\PriorityLifeAPI.pdb
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.csproj.AssemblyReference.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.AssemblyInfoInputs.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.AssemblyInfo.cs
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.csproj.CoreCompileInputs.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.dll
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.pdb
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Debug\netcoreapp2.1\PriorityLifeAPI.genruntimeconfig.cache

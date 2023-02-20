@@ -1,0 +1,15 @@
+2020/11/02-18:01:32.739 3f2c Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\Session Storage/MANIFEST-000001
+2020/11/02-18:01:32.740 3f2c Recovering log #15
+2020/11/02-18:01:32.741 3f2c Reusing old log C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\Session Storage/000015.log 
+2020/11/02-18:15:39.809 258c Level-0 table #19: started
+2020/11/02-18:15:39.818 258c Level-0 table #19: 16043 bytes OK
+2020/11/02-18:15:39.821 258c Delete type=0 #15
+2020/11/02-18:15:39.821 258c Compacting 4@0 + 1@1 files
+2020/11/02-18:15:39.828 258c Generated table #20@0: 1105 keys, 17948 bytes
+2020/11/02-18:15:39.828 258c Compacted 4@0 + 1@1 files => 17948 bytes
+2020/11/02-18:15:39.830 258c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/02-18:15:39.831 258c Delete type=2 #8
+2020/11/02-18:15:39.831 258c Delete type=2 #11
+2020/11/02-18:15:39.831 258c Delete type=2 #14
+2020/11/02-18:15:39.831 258c Delete type=2 #16
+2020/11/02-18:15:39.831 258c Delete type=2 #19

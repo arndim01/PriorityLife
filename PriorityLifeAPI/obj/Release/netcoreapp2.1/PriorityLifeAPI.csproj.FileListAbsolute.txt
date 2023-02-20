@@ -1,0 +1,10 @@
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Release\netcoreapp2.1\PriorityLifeAPI.deps.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Release\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Release\netcoreapp2.1\PriorityLifeAPI.runtimeconfig.dev.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Release\netcoreapp2.1\PriorityLifeAPI.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\bin\Release\netcoreapp2.1\PriorityLifeAPI.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Release\netcoreapp2.1\PriorityLifeAPI.csprojAssemblyReference.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Release\netcoreapp2.1\PriorityLifeAPI.AssemblyInfoInputs.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Release\netcoreapp2.1\PriorityLifeAPI.AssemblyInfo.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Release\netcoreapp2.1\PriorityLifeAPI.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeAPI\obj\Release\netcoreapp2.1\PriorityLifeAPI.pdb

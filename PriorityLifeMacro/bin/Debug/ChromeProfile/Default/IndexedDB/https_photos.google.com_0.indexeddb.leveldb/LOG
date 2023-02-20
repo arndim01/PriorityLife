@@ -1,0 +1,5 @@
+2020/10/26-21:40:28.749 97c Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/26-21:41:14.713 581c Level-0 table #5: started
+2020/10/26-21:41:14.723 581c Level-0 table #5: 2466 bytes OK
+2020/10/26-21:41:14.726 581c Delete type=0 #3
+2020/10/26-21:41:14.727 581c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

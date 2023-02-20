@@ -1,0 +1,39 @@
+'VERSION \n' + 
+'TAB T=1 \n' +
+'TAB CLOSEALLOTHERS\n' +
+'SET !ERRORIGNORE YES\n' +
+'SET !EXTRACT_TEST_POPUP NO\n' +
+'SET !TIMEOUT_STEP 100\n' +
+'URL GOTO=https://agent.royalneighbors.org/login\n' +
+'TAG POS=1 TYPE=BUTTON ATTR=TXT:Login\n' +
+'TAG POS=1 TYPE=INPUT:EMAIL ATTR=ID:logonIdentifier CONTENT={usn}\n' +
+'SET !ENCRYPTION NO\n' +
+'TAG POS=1 TYPE=INPUT:PASSWORD ATTR=ID:password CONTENT={pwd}\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=1 TYPE=BUTTON ATTR=ID:next\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=1 TYPE=SPAN ATTR=TXT:Reports\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=10 TYPE=SPAN ATTR=TXT:View<SP>Report\n' +
+'WAIT SECONDS=10\n' +
+'TAB T=2\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=1 TYPE=SELECT FORM=ID:form1 ATTR=ID:ReportViewer1_ctl08_ctl03_ddValue CONTENT=%1\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ID:form1 ATTR=ID:ReportViewer1_ctl08_ctl05_txtValue CONTENT={eff}\n' +
+'WAIT SECONDS=5\n' +
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ID:form1 ATTR=ID:ReportViewer1_ctl08_ctl07_txtValue CONTENT={exp}\n' +
+'WAIT SECONDS=10\n' +
+'TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:form1 ATTR=ID:ReportViewer1_ctl08_ctl00\n' +
+'WAIT SECONDS=60\n' +
+'TAG POS=1 TYPE=SPAN ATTR=ID:ReportViewer1_ctl09_ctl04_ctl00_ButtonImgDown\n' +
+'TAG POS=1 TYPE=A ATTR=TXT:CSV<SP>(comma<SP>delimited)\n' +
+'WAIT SECONDS=15\n' +
+'TAB CLOSE\n' +
+'TAB T=1\n' +
+'TAG POS=1 TYPE=SPAN ATTR=TXT:Nick\n' +
+'WAIT SECONDS=5\n' +
+'TAG POS=1 TYPE=P ATTR=TXT:Logout\n' +
+'WAIT SECONDS=5\n' +
+'TAB CLOSEALLOTHERS\n' +
+'TAB CLOSE';

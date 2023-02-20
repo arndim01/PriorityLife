@@ -1,0 +1,5 @@
+2020/10/28-19:00:23.151 235c Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/28-21:16:49.768 6f00 Level-0 table #5: started
+2020/10/28-21:16:49.772 6f00 Level-0 table #5: 2963 bytes OK
+2020/10/28-21:16:49.776 6f00 Delete type=0 #3
+2020/10/28-21:16:49.777 6f00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

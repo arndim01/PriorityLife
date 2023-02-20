@@ -1,0 +1,19 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Teams.Team_AddModel
+@section AdditionalJavaScript {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script type="text/javascript">
+        $(function () {
+            $('.datetextbox').datepicker({ dateFormat: 'm/d/yy' });
+        });
+    </script>
+}
+@{
+    ViewData["Title"] = "Add Teams";
+}
+<h2>@ViewData["Title"]</h2>
+@Html.ValidationSummary(true)
+<div>
+    @Html.Partial("./Shared/_AddEditTeamPartial", Model.PartialModel)
+</div>

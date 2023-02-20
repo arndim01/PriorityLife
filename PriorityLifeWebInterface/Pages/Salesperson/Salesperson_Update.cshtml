@@ -1,0 +1,19 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Salesperson.Salesperson_UpdateModel
+@section AdditionalJavaScript {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script type="text/javascript">
+        $(function () {
+            $('.datetextbox').datepicker({ dateFormat: 'm/d/yy' });
+        });
+    </script>
+}
+@{
+    ViewData["Title"] = "Update Salesperson";
+}
+<h2>Update Salesperson Record</h2>
+@Html.ValidationSummary(true)
+<div>
+    @Html.Partial("./Shared/_AddEditSalespersonPartial", Model.PartialModel)
+</div>

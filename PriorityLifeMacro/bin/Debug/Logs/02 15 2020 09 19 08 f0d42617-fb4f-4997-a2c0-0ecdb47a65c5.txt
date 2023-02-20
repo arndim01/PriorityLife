@@ -1,0 +1,13 @@
+NativeErrorCode = 5
+ErrorCode = -2147467259
+Message = Access is denied
+Data = System.Collections.ListDictionaryInternal
+InnerException = 
+TargetSite = Void Kill()
+StackTrace =    at System.Diagnostics.Process.Kill()
+   at PriorityLifeMacro.MacroIE.Stop() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\MacroIE.cs:line 187
+   at PriorityLifeMacro.MacroIE.Play() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\MacroIE.cs:line 84
+   at PriorityLifeMacro.Macro.<RunPlayerAsync>d__19.MoveNext() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\Macro.cs:line 86
+HelpLink = 
+Source = System
+HResult = -2147467259

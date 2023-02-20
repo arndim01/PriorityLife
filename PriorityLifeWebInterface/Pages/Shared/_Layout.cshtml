@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Family First Life Commission Report" />
+    <meta name="application-name" content="Family First Life" />
+
+    <title>@ViewData["Title"] - Family Life First</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position"
+              asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    <link rel="stylesheet" href="~/css/jquery-ui-1.11.4-themes/ui-lightness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="~/css/jquery-ui-1.11.4-themes/ui-lightness/theme.css" />
+    @RenderSection("AdditionalCss", required: false)
+</head>
+<body>
+    <nav class="navbar navbar-default    navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-page="/Index" class="navbar-brand"><img style="height:25px; display:inline-block;" src="~/images/FamilyFirstLife.png"/>&nbsp;<strong style="color:#3C3C3C">Family First Life</strong> </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-page="/Salesperson/Salesperson_List">Salesperson</a></li>
+                        <li><a asp-page="/Hierarchy/Hierarchy_List">Hierarchy</a></li>
+                        <li><a asp-page="/Teams/Team_List">Teams</a></li>
+                        <li><a asp-page="/Report/Individual_Daily_Report">Individual Report</a></li>
+                        <li><a asp-page="/Report/AgentTeam_Daily_Report">Agent Team Report</a></li>
+                        <li><a asp-page="/Report/Teams_Daily_Report">Teams Report</a></li>
+                    }
+                    else
+                    {
+                        @*<li><a asp-page="/About">About</a></li>
+            <li><a asp-page="/Contact">Contact</a></li>*@
+                    }
+                </ul>
+
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </nav>
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container body-content">
+        @RenderBody()
+        
+        <hr />
+        <footer>
+            <p>&copy; 2020 - Family First Life</p>
+        </footer>
+    </div>
+
+    <environment names="Development">
+        <script src="~/js/jquery-1.12.2.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="~/js/jquery-ui-1.11.4.min.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://code.jquery.com/jquery-1.12.2.js"
+                integrity="sha256-VUCyr0ZXB5VhBibo2DkTVhdspjmxUgxDGaLQx7qb7xY=" crossorigin="anonymous"
+                asp-fallback-src="~/js/jquery-1.12.2.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
+        </script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+                integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"
+                asp-fallback-src="~/js/jquery-ui-1.11.4.min.js">
+        </script>
+    </environment>
+
+    @RenderSection("AdditionalJavaScript", required: false)
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

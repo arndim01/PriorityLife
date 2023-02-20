@@ -1,0 +1,12 @@
+Message = Invalid Text Qualifier in line : =("0000168772"),ANVO/ ANOMA Y,=("110"),=("0101544190"),Active,11/21/1962,12/20/2019,05/20/2020,05/20/2020,CASAS,ZULEMA,O,SCROP2-T,0006697,Bank Draft,monthly,00041.54,6320 S ROBINSON DR,OKLAHOMA CITY OK 73139,,,OK,73139     ,405-669-5902,,12/13/2019
+Data = System.Collections.ListDictionaryInternal
+InnerException = 
+TargetSite = OfficeOpenXml.ExcelRangeBase LoadFromText(System.String, OfficeOpenXml.ExcelTextFormat)
+StackTrace =    at OfficeOpenXml.ExcelRangeBase.LoadFromText(String Text, ExcelTextFormat Format)
+   at OfficeOpenXml.ExcelRangeBase.LoadFromText(FileInfo TextFile, ExcelTextFormat Format)
+   at PriorityLifeMacro.Helper.Convert.CsvToExcel(String FileInput, String FileOutput, Carrier carrier) in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\Helper\Convert.cs:line 30
+   at PriorityLifeMacro.MacroChrome.TransferFiles() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\MacroChrome.cs:line 188
+   at PriorityLifeMacro.Macro.<RunPlayerAsync>d__19.MoveNext() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\Macro.cs:line 88
+HelpLink = 
+Source = EPPlus
+HResult = -2146233088

@@ -1,0 +1,15 @@
+2020/10/29-03:36:45.811 6734 Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/29-03:36:45.811 6734 Recovering log #31
+2020/10/29-03:36:45.812 6734 Reusing old log C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_www.facebook.com_0.indexeddb.leveldb/000031.log 
+2020/10/29-03:36:48.854 2ccc Level-0 table #36: started
+2020/10/29-03:36:48.858 2ccc Level-0 table #36: 532 bytes OK
+2020/10/29-03:36:48.860 2ccc Delete type=0 #31
+2020/10/29-03:36:48.860 2ccc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/29-03:36:48.860 2ccc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 243 : 0
+2020/10/29-03:36:48.860 2ccc Compacting 1@1 + 1@2 files
+2020/10/29-03:36:48.863 2ccc Generated table #37@1: 18 keys, 507 bytes
+2020/10/29-03:36:48.863 2ccc Compacted 1@1 + 1@2 files => 507 bytes
+2020/10/29-03:36:48.864 2ccc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/29-03:36:48.865 2ccc Delete type=2 #33
+2020/10/29-03:36:48.865 2ccc Delete type=2 #36
+2020/10/29-03:36:48.866 2ccc Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 243 : 0 .. (end); will stop at (end)

@@ -1,0 +1,125 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Teams.Team_ListModel
+@{
+    ViewData["Title"] = "Teams";
+}
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+@section AdditionalJavaScript {
+    <script src="~/js/jqgrid-i18n/grid.locale-en.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-jqgrid-4.13.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jqgrid-listcrudredirect.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        var urlAndMethod = '/Teams/Team_List';
+
+        $(function () {
+            $('#list-grid').jqGrid({
+                url: '/Teams/Team_List?handler=GridData',
+                datatype: 'json',
+                mtype: 'GET',
+                colModel: [
+                    { label: 'Team Name', name: 'teamname', align: 'center' },
+                    { label: 'Active', name: 'active', align: 'center', formatter: 'checkbox', width: 40 },
+                    { label: 'Edit', name: 'editoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Edit"'; } },
+                    { label: 'Delete', name: 'deleteoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Delete"'; } }
+                ],
+                width: 780,
+                caption: 'List of Team',
+                rowList: [5, 10, 20, 50],
+                viewrecords: true,
+                height: '100%',
+                rowNum: 10,
+                // set the subGrid property to true to show expand buttons for each row
+                subGrid: true,
+                // javascript function that will take care of showing the child grid
+                subGridRowExpanded: showChildGrid,
+                subGridOptions: {
+                    // expand all rows on load
+                    expandOnLoad: false
+                },
+                pager: $('#list-pager'),
+                gridComplete: function () {
+                    var ids = jQuery("#list-grid").jqGrid('getDataIDs');
+                    for (var i = 0; i < ids.length; i++) {
+                        var currentid = ids[i];
+                        editLink = "<a href='/Teams/Team_Update?id=" + currentid + "&returnUrl=/Teams/Team_List'><img src='/images/Edit.gif' style='border:none;' /></a>";
+                        deleteLink = "<a href='#' onclick=\"deleteItem('" + currentid + "')\"><img src='/images/Delete.png' style='border:none;' /></a>";
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { editoperation: editLink });
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { deleteoperation: deleteLink });
+                    }
+                }
+            });
+            function showChildGrid(parentRowID, parentRowKey) {
+                var childGridID = parentRowID + "_table";
+                var childGridPagerID = parentRowID + "_pager";
+                var childGridURL = "?handler=GridDataById&id=" + parentRowKey;
+                $('#' + parentRowID).append('<table id=' + childGridID + '></table><div id=' + childGridPagerID + '></div>');
+                $("#" + childGridID).jqGrid({
+                    url: childGridURL,
+                    mtype: "GET",
+                    datatype: "json",
+                    page: 1,
+                    colModel: [
+                        { label: 'Team Member', name: 'team_member', align: 'center', width: 100 },
+                        { label: 'Position', name: 'position', align: 'center', width: 70 },
+                        { label: 'Edit', name: 'editdetailoperation', width: 40, align: 'center', sortable: false, title: false, cellattr: function () { return 'title="Edit"'; } },
+                        { label: 'Delete', name: 'deletedetailoperation', width: 40, align: 'center', sortable: false, title: false, cellattr: function () { return 'title="Delete"'; } }
+                    ],
+                    rowNum: 5,
+                    caption: 'Team Details',
+                    rowList: [5, 10, 20, 50],
+                    viewrecords: true,
+                    width: 600,
+                    height: '100%',
+                    pager: "#" + childGridPagerID,
+                    gridComplete: function () {
+                        var ids = jQuery("#" + childGridID).jqGrid('getDataIDs');
+                        for (var i = 0; i < ids.length; i++) {
+                            var currentid = ids[i];
+                            editLink = "<a href='/Teams/TeamDetails_Update?id=" + currentid + "&returnUrl=/Teams/Team_List'><img src='/images/Edit.gif' style='border:none;' /></a>";
+                            deleteLink = "<a href='#' onclick=\"deleteTeamDetaialItem('" + currentid + "','" + childGridID + "')\"><img src='/images/Delete.png' style='border:none;' /></a>";
+                            jQuery("#" + childGridID).jqGrid('setRowData', ids[i], { editdetailoperation: editLink });
+                            jQuery("#" + childGridID).jqGrid('setRowData', ids[i], { deletedetailoperation: deleteLink });
+                        }
+                    }
+                });
+            }
+        });
+
+        // rename the page parameter to _page because asp.net core razor's page model
+        // does not recognize the page parameter when passed
+        $.extend(jQuery.jgrid.defaults, {
+            prmNames: {
+                page: "_page"
+            }
+        });
+    </script>
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+<div id="errorConfirmationDialog"></div>
+<div id="errorDialog"></div>
+
+<a href="/Teams/Team_Add?returnUrl=/Teams/Team_List"><img src="@Url.Content("~/images/Add.gif")" alt="Add New Team" style="border: none;" /></a>&nbsp;<a href="/Teams/Team_Add?returnUrl=/Teams/Team_List">Add New Team</a>
+&nbsp;
+<a href="/Teams/TeamDetails_Add?returnUrl=/Teams/Team_List"><img src="@Url.Content("~/images/Add.gif")" alt="Add New TeamDetails" style="border: none;" /></a>&nbsp;<a href="/Teams/TeamDetails_Add?returnUrl=/Teams/Team_List">Add New TeamDetails</a>
+
+<br />
+<br />
+
+<table id="list-grid"></table>
+<div id="list-pager"></div>
+
+<br />
+<br />
+
+<br />
+<br />
+
+<table id="list-grid-team-details"></table>
+<div id="list-pager-team-details"></div>

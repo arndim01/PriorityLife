@@ -1,0 +1,78 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[__EFMigrationsHistory] (Table)
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoleClaims].[IX_AspNetRoleClaims_RoleId] (Index)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetRoles].[RoleNameIndex] (Index)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserClaims].[IX_AspNetUserClaims_UserId] (Index)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserLogins].[IX_AspNetUserLogins_UserId] (Index)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUserRoles].[IX_AspNetUserRoles_RoleId] (Index)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUsers].[UserNameIndex] (Index)
+       [dbo].[AspNetUsers].[EmailIndex] (Index)
+       [dbo].[AspNetUserTokens] (Table)
+       [dbo].[Carriers] (Table)
+       [dbo].[Commissions] (Table)
+       [dbo].[CommissionsFile] (Table)
+       [dbo].[Hierarchy] (Table)
+       [dbo].[Salesperson] (Table)
+       [dbo].[Team] (Table)
+       [dbo].[TeamDetails] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Commissions] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Commissions] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[CommissionsFile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[CommissionsFile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[CommissionsFile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[CommissionsFile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Team] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+       [dbo].[FK_AspNetRoleClaims_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserClaims_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserLogins_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserTokens_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_CarrierId] (Foreign Key)
+       [dbo].[FK_SalespersonId] (Foreign Key)
+       [dbo].[FK_SalespersonUpline1Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline2Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline3Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline4Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline5Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline6Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline7Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline8Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline9Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline10Id] (Foreign Key)
+       [dbo].[FK_TeamManagerSalespersonId] (Foreign Key)
+       [dbo].[FK_TeamId] (Foreign Key)
+       [dbo].[FK_TeamMemberId] (Foreign Key)
+
+** Supporting actions

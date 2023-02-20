@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Carriers] (Table)
+       [dbo].[Commissions] (Table)
+       [dbo].[Hierarchy] (Table)
+       [dbo].[Salesperson] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Commissions] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Commissions] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       [dbo].[FK_SalespersonId] (Foreign Key)
+       [dbo].[FK_SalespersonUpline1Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline2Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline3Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline4Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline5Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline6Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline7Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline8Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline9Id] (Foreign Key)
+       [dbo].[FK_SalespersonUpline10Id] (Foreign Key)
+
+** Supporting actions

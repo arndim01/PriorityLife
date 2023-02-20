@@ -1,0 +1,21 @@
+'VERSION \n' +
+'TAB T=1 \n' +
+'TAB CLOSEALLOTHERS \n' +
+'SET !ERRORIGNORE YES \n' +
+'SET !TIMEOUT_STEP 100 \n' +
+'URL GOTO=https://www.americanamicable.com/marketing-login.html \n' +
+'TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:Marketing-Login ATTR=NAME:user CONTENT={usn} \n' +
+'SET !ENCRYPTION NO \n' +
+'TAG POS=1 TYPE=INPUT:PASSWORD FORM=NAME:Marketing-Login ATTR=NAME:password CONTENT={pwd} \n' +
+'TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Marketing-Login ATTR=NAME:Button \n' +
+'FRAME NAME=main \n' +
+'WAIT SECONDS=10 \n' +
+'TAG POS=1 TYPE=A ATTR=TXT:Agent<SP>E-file \n' + 
+'FRAME F=0 \n' + 
+'WAIT SECONDS=10 \n' +
+'ONDOWNLOAD FOLDER={{downloadpath}}\MOO\{{!NOW:yyyymmdd}}\ FILE=* WAIT=YES \n' +
+'TAG POS=3 TYPE=INPUT:SUBMIT ATTR=NAME:Button \n' +
+'WAIT SECONDS=100 \n' +
+'TAG POS=1 TYPE=IMG ATTR=SRC:https://www.americanamicable.com/cgi/agtefile/images/1logout.jpg \n' +
+'TAB CLOSEALLOTHERS \n' +
+'TAB CLOSE \n';

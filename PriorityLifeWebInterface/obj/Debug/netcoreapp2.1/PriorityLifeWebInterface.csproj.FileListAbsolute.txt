@@ -1,0 +1,117 @@
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.deps.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.runtimeconfig.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.runtimeconfig.dev.json
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.Views.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeWebInterface.Views.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.csprojAssemblyReference.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorAssemblyInfo.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorAssemblyInfo.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.AssemblyInfoInputs.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.AssemblyInfo.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.TagHelpers.input.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.TagHelpers.output.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorCoreGenerate.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorTargetAssemblyInfo.cache
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorTargetAssemblyInfo.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.Views.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.csproj.CopyComplete
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Hierarchy\Hierarchy_List.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Report_List.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Salesperson\Salesperson_List.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeAPI.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\PriorityLifeAPI.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Hierarchy\Hierarchy_Add.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Hierarchy\Hierarchy_Update.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AddEditHierarchyPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Salesperson\Salesperson_Update.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Salesperson\Salesperson_Add.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AddEditSalespersonPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Individual_Daily_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Individual_Weekly_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Individual_MTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Individual_YTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Teams\Team_List.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Teams\Team_Add.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AddEditTeamPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Teams\Team_Update.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Individual_Advance_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AddEditTeamDetailsPartial.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Teams\TeamDetails_Add.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Teams\TeamDetails_Update.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Teams_Daily_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Teams_Weekly_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Teams_MTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Teams_YTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\Teams_Advance_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\AgentTeam_Daily_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\AgentTeam_Weekly_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\AgentTeam_MTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Report\AgentTeam_YTD_Report.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\Spire.License.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\Spire.Pdf.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\Spire.License.xml
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\bin\Debug\netcoreapp2.1\Spire.Pdf.xml
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\Razor\Pages\Hierarchy\Hierarchy_Entry.cshtml.g.cs
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.csproj.AssemblyReference.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.AssemblyInfoInputs.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.AssemblyInfo.cs
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.csproj.CoreCompileInputs.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorAssemblyInfo.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.RazorAssemblyInfo.cs
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.dll
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeWebInterface\obj\Debug\netcoreapp2.1\PriorityLifeWebInterface.pdb

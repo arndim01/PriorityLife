@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<pattern.macro.project version="1.0.0.0">
+  <pattern name="americo">
+     <item>/AMERICO.txt</item>
+     <item>.csv</item>
+     <item>cr</item>
+     <item>AMERICO/</item>
+     <item>500000</item>
+  </pattern>
+  <pattern name="moo">
+     <item>/MOO.iim</item>
+     <item>.xls</item>
+     <item>ie</item>
+     <item>MOO/</item>
+     <item>500000</item>
+  </pattern>
+  <pattern name="aig">
+     <item>/AIG.iim</item>
+     <item>.xlsx</item>
+     <item>ie</item>
+     <item>AIG/</item>
+     <item>500000</item>
+  </pattern>
+  <pattern name="royal">
+    <item>/ROYAL.txt</item>
+    <item>.csv</item>
+    <item>cr</item>
+    <item>ROYAL/</item>
+    <item>500000</item>
+  </pattern>
+  <pattern name="global">
+    <item>/GLOBAL.iim</item>
+    <item>.csv</item>
+    <item>ie</item>
+    <item>GLOBAL/</item>
+    <item>500000</item>
+  </pattern>
+  <pattern name="amam">
+    <item>/AMAM.txt</item>
+    <item>.csv</item>
+    <item>cr</item>
+    <item>AMAM/</item>
+    <item>500000</item>
+  </pattern>
+</pattern.macro.project>

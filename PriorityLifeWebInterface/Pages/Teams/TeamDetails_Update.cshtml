@@ -1,0 +1,17 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Teams.TeamDetails_UpdateModel
+@section AdditionalJavaScript {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script type="text/javascript">
+        $(function () {
+            $('.datetextbox').datepicker({dateFormat: 'm/d/yy'});
+        });
+    </script>
+}
+
+<h2>Update Record</h2>
+@Html.ValidationSummary(true)
+<div>
+    @Html.Partial("./Shared/_AddEditTeamDetailsPartial", Model.PartialModel)
+</div>

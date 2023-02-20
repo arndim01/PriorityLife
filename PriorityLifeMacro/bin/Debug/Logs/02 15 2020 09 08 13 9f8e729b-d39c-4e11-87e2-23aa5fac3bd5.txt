@@ -1,0 +1,11 @@
+Message = The process cannot access the file 'RptAgentAppsAndProductionDistributionView.csv' because it is being used by another process.
+Data = System.Collections.ListDictionaryInternal
+InnerException = 
+TargetSite = Void WinIOError(Int32, System.String)
+StackTrace =    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at PriorityLifeMacro.MacroIE.CleanFiles() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\MacroIE.cs:line 94
+   at PriorityLifeMacro.Macro.<RunPlayerAsync>d__19.MoveNext() in C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\Macro.cs:line 91
+HelpLink = 
+Source = mscorlib
+HResult = -2147024864

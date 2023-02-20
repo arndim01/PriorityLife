@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<marcrologs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <details>
+    <Type>macro_play_error</Type>
+    <Message>sFail</Message>
+  </details>
+  <details>
+    <Type>macro_close_error</Type>
+    <Message>sNotStarted</Message>
+  </details>
+  <details>
+    <Type>macro_force_close_error</Type>
+    <Message>Force close imacro</Message>
+  </details>
+</marcrologs>

@@ -1,0 +1,100 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Report_ListModel
+@{
+    ViewData["Title"] = "Individual Reports";
+
+}
+
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+@section AdditionalJavaScript {
+    <script src="~/js/jqgrid-i18n/grid.locale-en.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-jqgrid-4.13.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jqgrid-listcrudredirect.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        var urlAndMethod = '/Report/Report_List';
+
+        $(function () {
+            $('#list-grid').jqGrid({
+                url: '/Report/Report_List?handler=GridData',
+                datatype: 'json',
+                mtype: 'GET',
+                colNames: ['Id', 'WritingAgent', 'Commissions Date', 'Upline1', 'Upline2', 'Upline3', 'Upline4', 'Upline5', 'Upline6', 'Upline7', 'Upline8', 'Upline9', 'Upline10', 'Carrier', 'Amount'],
+                colModel: [
+                    { name: 'Id', index: 'Id', align: 'right' },
+                    { name: 'WritingAgent', index: 'WritingAgent', align: 'left' },
+                    { name: 'CommissionsDate', index: 'CommissionsDate', align: 'right', sorttype: "date" },
+                    { name: 'Upline1', index: 'Upline1', align: 'left' },
+                    { name: 'Upline2', index: 'Upline2', align: 'left' },
+                    { name: 'Upline3', index: 'Upline3', align: 'left' },
+                    { name: 'Upline4', index: 'Upline4', align: 'left' },
+                    { name: 'Upline5', index: 'Upline5', align: 'left' },
+                    { name: 'Upline6', index: 'Upline6', align: 'left' },
+                    { name: 'Upline7', index: 'Upline7', align: 'left' },
+                    { name: 'Upline8', index: 'Upline8', align: 'left' },
+                    { name: 'Upline9', index: 'Upline9', align: 'left' },
+                    { name: 'Upline10', index: 'Upline10', align: 'left' },
+                    { name: 'Carrier', index: 'Carrier', align: 'left' },
+                    { name: 'Amount', index: 'Amount', align: 'right', formatter: 'currency', formatoptions: { decimalPlaces: 2, prefix: "$" } }
+                ],
+                pager: $('#list-pager'),
+                rowNum: 10,
+                pageable: true,
+                jsonReader:
+                {
+                    page: "d.page"
+                },
+                rowList: [5, 10, 20, 50],
+                sortname: 'Id',
+                sortorder: "asc",
+                viewrecords: true,
+                caption: 'Reports',
+                height: '100%',
+                width: '1200',
+                gridComplete: function () {
+
+                }
+            });
+        });
+
+        // rename the page parameter to _page because asp.net core razor's page model
+        // does not recognize the page parameter when passed
+        $.extend(jQuery.jgrid.defaults, {
+            prmNames: {
+                page: "_page"
+            }
+        });
+    </script>
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+<div id="errorConfirmationDialog"></div>
+<div id="errorDialog"></div>
+
+<div>
+    <ul class="nav">
+        <li style="display: inline-block"><a asp-page="/Report/Individual_Daily_Report">Daily</a></li>
+        <li style="display: inline-block"><a asp-page="/Report/Individual_Weekly_Report">Weekly</a></li>
+        <li style="display: inline-block"><a asp-page="/Report/Individual_MTD_Report">MTD</a></li>
+        <li style="display: inline-block"><a asp-page="/Report/Individual_YTD_Report">YTD</a></li>
+    </ul>
+</div>
+<br />
+<br />
+
+<table id="list-grid"></table>
+<div id="list-pager"></div>
+<br />
+<br />
+<div>
+    <form method="post" asp-page="/Report/Report_List" asp-page-handler="CreateDocument">
+        <div>
+            <input type="submit" value="Create Document" style="width:150px;height:27px" />
+        </div>
+    </form>
+</div>

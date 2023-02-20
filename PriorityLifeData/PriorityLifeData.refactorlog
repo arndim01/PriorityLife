@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="106f30ff-c4e2-4640-92a4-d0e68c633492" ChangeDateTime="01/31/2020 05:04:30">
+    <Property Name="ElementName" Value="[dbo].[Carriers].[Short]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Carriers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ShortName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa06b8e3-c019-43ac-b1a6-1a9840c29571" ChangeDateTime="02/07/2020 06:20:49">
+    <Property Name="ElementName" Value="[dbo].[CommissionsFile].[LogsUrl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CommissionsFile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MimeType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d0a9de0-02bd-4b0f-91ee-f6008b2390e3" ChangeDateTime="02/07/2020 06:20:59">
+    <Property Name="ElementName" Value="[dbo].[CommissionsFile].[MimeType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CommissionsFile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Extension" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0e6d67e-40e2-4ddd-85af-60eaf06f9157" ChangeDateTime="02/08/2020 15:27:33">
+    <Property Name="ElementName" Value="[dbo].[CommissionsExtracted].[UNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CommissionsExtracted]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UCode" />
+  </Operation>
+</Operations>

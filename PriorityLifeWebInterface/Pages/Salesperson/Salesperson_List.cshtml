@@ -1,0 +1,84 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Salesperson.Salesperson_ListModel
+@{
+    ViewData["Title"] = "Salesperson";
+}
+
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+@section AdditionalJavaScript {
+    <script src="~/js/jqgrid-i18n/grid.locale-en.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-jqgrid-4.13.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jqgrid-listcrudredirect.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        var urlAndMethod = '/Salesperson/Salesperson_List';
+
+        $(function () {
+            $('#list-grid').jqGrid({
+                url: '/Salesperson/Salesperson_List?handler=GridData',
+                datatype: 'json',
+                mtype: 'GET',
+                colNames: ['First Name', 'Middle Name', 'Last Name', 'Initials', 'Email', 'Phone', 'Active', '', ''],
+                colModel: [
+                    { name: 'FirstName', index: 'FirstName', align: 'left' },
+                    { name: 'MiddleName', index: 'MiddleName', align: 'left' },
+                    { name: 'LastName', index: 'LastName', align: 'left' },
+                    { name: 'Initials', index: 'Initials', align: 'left' },
+                    { name: 'Email', index: 'Email', align: 'left' },
+                    { name: 'Phone', index: 'Phone', align: 'left' },
+                    { name: 'Active', index: 'Active', align: 'center', formatter: 'checkbox' },
+                    { name: 'editoperation', index: 'editoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Edit"'; }},
+                    { name: 'deleteoperation', index: 'deleteoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Delete"'; } }
+                ],
+                pager: $('#list-pager'),
+                rowNum: 20,
+                pageable: true,
+                jsonReader:
+                {
+                    page: "d.page"
+                },
+                rowList: [5, 10, 20, 50],
+                sortname: 'FirstName',
+                sortorder: "asc",
+                viewrecords: true,
+                caption: 'List of Salesperson',
+                height: '100%',
+                width: '1200',
+                gridComplete: function () {
+                    var ids = jQuery("#list-grid").jqGrid('getDataIDs');
+                    for (var i = 0; i < ids.length; i++) {
+                        var currentid = ids[i];
+                        editLink = "<a href='/Salesperson/Salesperson_Update?id=" + currentid + "&returnUrl=/Salesperson/Salesperson_List'><img src='/images/Edit.gif' style='border:none;' /></a>";
+                        deleteLink = "<a href='#' onclick=\"deleteItem('" + currentid + "')\"><img src='/images/Delete.png' style='border:none;' /></a>";
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { editoperation: editLink });
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { deleteoperation: deleteLink });
+                    }
+                }
+            });
+        });
+
+        // rename the page parameter to _page because asp.net core razor's page model
+        // does not recognize the page parameter when passed
+        $.extend(jQuery.jgrid.defaults, {
+            prmNames: {
+                page: "_page"
+            }
+        });
+    </script>
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+<div id="errorConfirmationDialog"></div>
+<div id="errorDialog"></div>
+
+<a href="/Salesperson/Salesperson_Add?returnUrl=/Salesperson/Salesperson_List"><img src="@Url.Content("~/images/Add.gif")" alt="Add New Salesperson" style="border: none;" /></a>&nbsp;<a href="/Salesperson/Salesperson_Add?returnUrl=/Salesperson/Salesperson_List">Add New Salesperson</a>
+<br />
+<br />
+
+<table id="list-grid"></table>
+<div id="list-pager"></div>

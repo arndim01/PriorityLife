@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<pattern.excel.project version="1.0.0.0">
+  <pattern name="aig">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>5</tableline>
+    <columns>
+      <column>
+		<name cl="agent_name">Writing/Servicing Agent</name>
+		  <dont_item>agent name not found</dont_item>
+        <dont_item>_blank</dont_item>
+	  </column>
+      <column>
+		    <name cl="amount">Premium</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="pl_number">Policy Number</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+		<name>Policy Status</name>
+        <dos_item>Placed in Force</dos_item>
+      </column>
+      <column>
+		<name cl="date">Last Update Date</name>
+		  <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="americo">
+    <extension>xlsx</extension>
+    <dltype>date</dltype>
+    <tableline>1</tableline>
+    <columns>
+      <column>
+        <name cl="agent_name">Agent_Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Paid_Production</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="moo">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>5</tableline>
+    <columns>
+      <column>
+        <name>Case Status</name>
+        <dos_item>Placed</dos_item>
+      </column>
+      <column>
+        <name cl="pl_number">Policy Number</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_name">Producer Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Annualized Premium ($)</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="date">Policy Effective</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="global">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>1</tableline>
+    <columns>
+      <column>
+        <name cl="pl_number">Policy Number</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_first_name">Writing Agent First Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_last_name">Writing Agent Last Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Planned Annual Premium</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="date">Issue Date</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="royal">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>1</tableline>
+    <columns>
+      <column>
+        <name cl="pl_number">Policy Number</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_name">textbox1</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">textbox20</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="amam">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>1</tableline>
+    <columns>
+      <column>
+        <name cl="pl_number">Policy</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_name">AgentName</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">ModePrem</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="date">App Date</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="athene">
+    <extension>xlsx</extension>
+    <dltype>date</dltype>
+    <tableline>2</tableline>
+    <columns>
+      <column>
+        <name cl="pl_number">Policy Number</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_name">Agent Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Production Premium</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="trans">
+    <extension>xlsx</extension>
+    <dltype>date</dltype>
+    <tableline>8</tableline>
+    <columns>
+      <column>
+        <name cl="agent_name">Agent Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">PremCredit</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="prosperity">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>1</tableline>
+    <columns>
+     
+      <column>
+        <name cl="agent_first_name">Agent First Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_last_name">Agent Last Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Annualized Premium</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="date">Date Processed</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+  <pattern name="rshield">
+    <extension>xlsx</extension>
+    <dltype>bulk</dltype>
+    <tableline>1</tableline>
+    <columns>
+      <column>
+        <name cl="pl_number">Subscribe ID</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_first_name">First Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="agent_last_name">Last Name</name>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="amount">Sale Amount</name>
+        <dont_item>-</dont_item>
+        <dont_item>_blank</dont_item>
+      </column>
+      <column>
+        <name cl="date">Created</name>
+        <dont_item>_blank</dont_item>
+      </column>
+    </columns>
+  </pattern>
+</pattern.excel.project>

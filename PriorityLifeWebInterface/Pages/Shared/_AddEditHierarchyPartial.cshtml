@@ -1,0 +1,135 @@
+﻿@using PriorityLifeAPI.Domain;
+@model PriorityLifeWebInterface.PartialModels.AddEditHierarchyPartialModel
+
+<form method="post">
+    <input type="hidden" asp-for="ReturnUrl" /> 
+    <div>
+        <fieldset>
+            <legend></legend>
+            <table>
+                @if (Model.Operation == CrudOperation.Update)
+                {
+                    <tr style="display:none">
+                        <td class="editor-label"><label asp-for="Hierarchy.Id"></label>:</td>
+                        <td></td>
+                        <td class="editor-field"><input asp-for="Hierarchy.Id" readonly="readonly" /></td>
+                        <td></td>
+                    </tr>
+                }
+
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.SalesPersonId">Sales Person</label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><select id="salesPersonId" asp-for="Hierarchy.SalesPersonId" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"><span id="salesPersonIdValidation" style="color: red;"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline1Id">Upline 1</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline1Id" asp-for="Hierarchy.Upline1Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline2Id">Upline 2</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline2Id" asp-for="Hierarchy.Upline2Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline3Id">Upline 3</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline3Id" asp-for="Hierarchy.Upline3Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline4Id">Upline 4</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline4Id" asp-for="Hierarchy.Upline4Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline5Id">Upline 5</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline5Id" asp-for="Hierarchy.Upline5Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline6Id">Upline 6</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline6Id" asp-for="Hierarchy.Upline6Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline7Id">Upline 7</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline7Id" asp-for="Hierarchy.Upline7Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline8Id">Upline 8</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline8Id" asp-for="Hierarchy.Upline8Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline9Id">Upline 9</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline9Id" asp-for="Hierarchy.Upline9Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Hierarchy.Upline10Id">Upline 10</label>:</td>
+                    <td></td>
+                    <td class="editor-field"><select id="upline10Id" asp-for="Hierarchy.Upline10Id" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr style="@(Model.Operation == CrudOperation.Add ?"display:none":"")">
+                    <td class="editor-label"><label asp-for="Hierarchy.Active"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Hierarchy.Active" type="checkbox" /></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Hierarchy.AddedBy"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input readonly asp-for="Hierarchy.AddedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Hierarchy.AddedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Hierarchy.AddedDate"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input readonly asp-for="Hierarchy.AddedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Hierarchy.AddedDate"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Hierarchy.UpdatedBy"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input readonly asp-for="Hierarchy.UpdatedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Hierarchy.UpdatedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Hierarchy.UpdatedDate"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input readonly asp-for="Hierarchy.UpdatedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Hierarchy.UpdatedDate"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2">
+                        <br />
+                        @if (Model.Operation == CrudOperation.Add)
+                        {
+                            <input type="submit" asp-page-handler="Add" value="Add" class="button-150" />
+                        }
+                        else
+                        {
+                            <input type="submit" asp-page-handler="Update" value="Update" class="button-150" />
+                        }
+
+                        <input type="button" value="Cancel" onclick="window.location='@Model.ReturnUrl'; return false;" class="button-100" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+</form>

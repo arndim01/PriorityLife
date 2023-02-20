@@ -1,0 +1,15 @@
+2020/11/02-19:45:17.374 5a0 Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/02-19:45:17.375 5a0 Recovering log #10
+2020/11/02-19:45:17.376 5a0 Reusing old log C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\IndexedDB\https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000010.log 
+2020/11/02-19:45:26.970 1910 Level-0 table #15: started
+2020/11/02-19:45:26.973 1910 Level-0 table #15: 190 bytes OK
+2020/11/02-19:45:26.975 1910 Delete type=0 #10
+2020/11/02-19:45:26.976 1910 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/02-19:45:26.976 1910 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 10 : 1
+2020/11/02-19:45:26.976 1910 Compacting 1@1 + 1@2 files
+2020/11/02-19:45:26.980 1910 Generated table #16@1: 8 keys, 372 bytes
+2020/11/02-19:45:26.980 1910 Compacted 1@1 + 1@2 files => 372 bytes
+2020/11/02-19:45:26.982 1910 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/02-19:45:26.983 1910 Delete type=2 #12
+2020/11/02-19:45:26.983 1910 Delete type=2 #15
+2020/11/02-19:45:26.984 1910 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 10 : 1 .. (end); will stop at (end)

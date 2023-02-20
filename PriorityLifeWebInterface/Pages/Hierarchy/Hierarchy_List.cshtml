@@ -1,0 +1,91 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Hierarchy.Hierarchy_ListModel
+@{
+    ViewData["Title"] = "Hierarchy";
+}
+
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+@section AdditionalJavaScript {
+    <script src="~/js/jqgrid-i18n/grid.locale-en.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-jqgrid-4.13.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jqgrid-listcrudredirect.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        var urlAndMethod = '/Hierarchy/Hierarchy_List';
+
+        $(function () {
+            $('#list-grid').jqGrid({
+                url: '/Hierarchy/Hierarchy_List?handler=GridData',
+                datatype: 'json',
+                mtype: 'GET',
+                colNames: ['Sales Person', 'Upline1', 'Upline2', 'Upline3', 'Upline4', 'Upline5', 'Upline6', 'Upline7', 'Upline8', 'Upline9', 'Upline10', 'Active', '', ''],
+                colModel: [
+                    { name: 'SalesPersonId', index: 'SalesPersonId', align: 'right' },
+                    { name: 'Upline1Id', index: 'Upline1Id', align: 'right' },
+                    { name: 'Upline2Id', index: 'Upline2Id', align: 'right' },
+                    { name: 'Upline3Id', index: 'Upline3Id', align: 'right' },
+                    { name: 'Upline4Id', index: 'Upline4Id', align: 'right' },
+                    { name: 'Upline5Id', index: 'Upline5Id', align: 'right' },
+                    { name: 'Upline6Id', index: 'Upline6Id', align: 'right' },
+                    { name: 'Upline7Id', index: 'Upline7Id', align: 'right' },
+                    { name: 'Upline8Id', index: 'Upline8Id', align: 'right' },
+                    { name: 'Upline9Id', index: 'Upline9Id', align: 'right' },
+                    { name: 'Upline10Id', index: 'Upline10Id', align: 'right' },
+                    { name: 'Active', index: 'Active', align: 'center', formatter: 'checkbox' },
+                   { name: 'editoperation', index: 'editoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Edit"'; }},
+                    { name: 'deleteoperation', index: 'deleteoperation', align: 'center', width: 40, sortable: false, title: false, cellattr: function () { return 'title="Delete"'; } }
+                ],
+                pager: $('#list-pager'),
+                rowNum: 10,
+                pageable: true,
+                jsonReader:
+                {
+                    page: "d.page"
+                },
+                rowList: [5, 10, 20, 50],
+                sortname: 'SalesPersonId',
+                sortorder: "asc",
+                viewrecords: true,
+                caption: 'List of Hierarchy',
+                height: '100%',
+                width: '1200',
+                gridComplete: function () {
+                    var ids = jQuery("#list-grid").jqGrid('getDataIDs');
+                    for (var i = 0; i < ids.length; i++) {
+                        var currentid = ids[i];
+                        editLink = "<a href='/Hierarchy/Hierarchy_Update?id=" + currentid + "&returnUrl=/Hierarchy/Hierarchy_List'><img src='/images/Edit.gif' style='border:none;' /></a>";
+                        deleteLink = "<a href='#' onclick=\"deleteItem('" + currentid + "')\"><img src='/images/Delete.png' style='border:none;' /></a>";
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { editoperation: editLink });
+                        jQuery("#list-grid").jqGrid('setRowData', ids[i], { deleteoperation: deleteLink });
+                    }
+                }
+            });
+        });
+
+        // rename the page parameter to _page because asp.net core razor's page model
+        // does not recognize the page parameter when passed
+        $.extend(jQuery.jgrid.defaults, {
+            prmNames: {
+                page: "_page"
+            }
+        });
+    </script>
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+<div id="errorConfirmationDialog"></div>
+<div id="errorDialog"></div>
+<a href="/Hierarchy/Hierarchy_Add?returnUrl=/Hierarchy/Hierarchy_List"><img src="@Url.Content("~/images/Add.gif")" alt="Add New Hierarchy" style="border: none;" /></a>&nbsp;<a href="/Hierarchy/Hierarchy_Add?returnUrl=/Hierarchy/Hierarchy_List">Add New Hierarchy</a>
+&nbsp;
+<a href="/Hierarchy/Hierarchy_Entry">Hierarch Upload</a>
+<br />
+<br />
+<table id="list-grid"></table>
+<div id="list-pager"></div>
+<br />
+<br />

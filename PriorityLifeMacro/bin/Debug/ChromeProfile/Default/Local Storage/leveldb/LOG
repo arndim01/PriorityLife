@@ -1,0 +1,27 @@
+2020/11/02-18:01:32.577 37f8 Reusing MANIFEST C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\Local Storage\leveldb/MANIFEST-000001
+2020/11/02-18:01:32.578 37f8 Recovering log #92
+2020/11/02-18:01:32.580 37f8 Reusing old log C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeMacro\bin\Debug\ChromeProfile\Default\Local Storage\leveldb/000092.log 
+2020/11/02-18:02:09.356 3b04 Level-0 table #96: started
+2020/11/02-18:02:09.359 3b04 Level-0 table #96: 11734 bytes OK
+2020/11/02-18:02:09.361 3b04 Delete type=0 #92
+2020/11/02-18:07:46.868 44ac Level-0 table #98: started
+2020/11/02-18:07:46.871 44ac Level-0 table #98: 9947 bytes OK
+2020/11/02-18:07:46.873 44ac Delete type=0 #95
+2020/11/02-19:45:22.470 5a0 Level-0 table #100: started
+2020/11/02-19:45:22.479 5a0 Level-0 table #100: 16026 bytes OK
+2020/11/02-19:45:22.481 5a0 Delete type=0 #97
+2020/11/02-19:45:22.482 5a0 Compacting 4@0 + 1@1 files
+2020/11/02-19:45:22.488 5a0 Generated table #101@0: 311 keys, 46557 bytes
+2020/11/02-19:45:22.488 5a0 Compacted 4@0 + 1@1 files => 46557 bytes
+2020/11/02-19:45:22.489 5a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/11/02-19:45:22.489 5a0 Delete type=2 #91
+2020/11/02-19:45:22.489 5a0 Delete type=2 #93
+2020/11/02-19:45:22.490 5a0 Delete type=2 #96
+2020/11/02-19:45:22.490 5a0 Delete type=2 #98
+2020/11/02-19:45:22.490 5a0 Delete type=2 #100
+2020/11/02-20:28:24.124 3844 Level-0 table #103: started
+2020/11/02-20:28:24.136 3844 Level-0 table #103: 12741 bytes OK
+2020/11/02-20:28:24.140 3844 Delete type=0 #99
+2020/11/02-20:58:06.841 9a0 Level-0 table #105: started
+2020/11/02-20:58:06.850 9a0 Level-0 table #105: 16163 bytes OK
+2020/11/02-20:58:06.851 9a0 Delete type=0 #102

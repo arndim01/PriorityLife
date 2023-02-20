@@ -1,0 +1,19 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Hierarchy.Hierarchy_UpdateModel
+@section AdditionalJavaScript {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script type="text/javascript">
+        $(function () {
+            $('.datetextbox').datepicker({ dateFormat: 'm/d/yy' });
+        });
+    </script>
+}
+@{
+    ViewData["Title"] = "Update Hierarchy";
+}
+<h2>Update Hierarchy Record</h2>
+@Html.ValidationSummary(true)
+<div>
+    @Html.Partial("./Shared/_AddEditHierarchyPartial", Model.PartialModel)
+</div>

@@ -1,0 +1,112 @@
+﻿@using PriorityLifeAPI.Domain;
+@model PriorityLifeWebInterface.PartialModels.AddEditSalespersonPartialModel
+
+
+
+<form method="post">
+    <input type="hidden" asp-for="ReturnUrl" />
+    <div>
+        <fieldset>
+            <legend></legend>
+            <table>
+                @if (Model.Operation == CrudOperation.Update)
+                {
+
+                    <tr style="display:none">
+                        <td class="editor-label"><label asp-for="Salesperson.Id"></label>:</td>
+                        <td></td>
+                        <td class="editor-field"><input asp-for="Salesperson.Id" readonly="readonly" /></td>
+                        <td></td>
+                    </tr>
+                }
+                <tr>
+                    <td class="editor-label"><label asp-for="Salesperson.FirstName"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Salesperson.FirstName" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.FirstName"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Salesperson.MiddleName"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input asp-for="Salesperson.MiddleName" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.MiddleName"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Salesperson.LastName"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Salesperson.LastName" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.LastName"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Salesperson.Initials"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input readonly asp-for="Salesperson.Initials" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.Initials"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Salesperson.Email"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input asp-for="Salesperson.Email" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.Email"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Salesperson.Phone"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input asp-for="Salesperson.Phone" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.Phone"></span></td>
+                </tr>
+                
+                <tr style="@(Model.Operation == CrudOperation.Add ?"display:none":"")">
+                    <td class="editor-label"><label asp-for="Salesperson.Active"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Salesperson.Active" type="checkbox" /></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Salesperson.AddedBy"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input readonly asp-for="Salesperson.AddedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.AddedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Salesperson.AddedDate"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input readonly asp-for="Salesperson.AddedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.AddedDate"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Salesperson.UpdatedBy"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input readonly asp-for="Salesperson.UpdatedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.UpdatedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Salesperson.UpdatedDate"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input readonly asp-for="Salesperson.UpdatedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Salesperson.UpdatedDate"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2">
+                        <br />
+                        @if (Model.Operation == CrudOperation.Add)
+                        {
+                            <input type="submit" asp-page-handler="Add" value="Add" class="button-150" />
+                        }
+                        else
+                        {
+                            <input type="submit" asp-page-handler="Update" value="Update" class="button-150" />
+                        }
+
+                        <input type="button" value="Cancel" onclick="window.location='@Model.ReturnUrl'; return false;" class="button-100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+</form>

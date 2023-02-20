@@ -1,0 +1,25 @@
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dacpac
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.pdb
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.pdb
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.sqlprojAssemblyReference.cache
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\Model.xml
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\refactor.xml
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\postdeploy.sql
+C:\Users\Arndimz\Desktop\Workflow\PriorityLife\PriorityLifeData\obj\Debug\predeploy.sql
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dacpac
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.dll
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.pdb
+C:\Users\Arndimz\Desktop\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.sqlprojAssemblyReference.cache
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dacpac
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.dll
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\bin\Debug\PriorityLifeData.pdb
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.dll
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\PriorityLifeData.pdb
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\Model.xml
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\refactor.xml
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\postdeploy.sql
+D:\Office Workflow\Workflow\Bituin\PriorityLife\PriorityLifeData\obj\Debug\predeploy.sql

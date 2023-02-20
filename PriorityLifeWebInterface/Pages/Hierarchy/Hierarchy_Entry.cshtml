@@ -1,0 +1,134 @@
+﻿@page
+@model PriorityLifeWebInterface.Pages.Hierarchy.Hierarchy_EntryModel
+@{
+    ViewData["Title"] = "Upload Hierarchy";
+}
+
+@section AdditionalCss {
+    <link rel="stylesheet" href="~/css/ui.jqgrid.min.css" />
+}
+
+<h2>@ViewData["Title"]</h2>
+<br />
+<br />
+
+<div>
+    <form method="post" enctype="multipart/form-data">
+        <label>Upload Hierarchy :</label> <input type="file" asp-for="Upload" />
+        <br />
+        <input type="submit" value="Upload" />
+    </form>
+</div>
+
+<div>
+    @if (Model.HierarchyExtracted != null)
+    {
+    <form method="post" asp-page="/Hierarchy/Hierarchy_Entry" >
+         <input type="hidden" asp-for="ReturnUrl" /> 
+        <div>
+            <fieldset>
+                <legend></legend>
+                <table>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.FirstName"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.FirstName" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.FirstName"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.MiddleName"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.MiddleName" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.MiddleName"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.LastName"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.LastName" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.LastName"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Phone"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Phone" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Phone"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Email"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Email" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Email"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline1"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline1" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline1"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline2"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline2" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline2"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline3"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline3" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline3"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline4"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline4" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline4"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline5"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline5" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline5"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline6"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline6" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline6"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline7"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline7" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline7"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline8"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline8" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline8"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline9"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline9" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline9"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="editor-label"><label asp-for="HierarchyExtracted.Upline10"></label>:</td>
+                        <td><span style="color: red;">*</span></td>
+                        <td class="editor-field"><input asp-for="HierarchyExtracted.Upline10" /></td>
+                        <td class="editor-field"><span asp-validation-for="HierarchyExtracted.Upline10"></span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="2">
+                            <input type="submit" asp-page-handler="Save" value="Save" class="button-150" />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+        </div>
+    </form>
+    }
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<pattern.macro.project version="1.0.0.0">
+  <pattern name="americo">
+     <item>date</item>
+  </pattern>
+  <pattern name="moo">
+     <item>bulk</item>
+  </pattern>
+  <pattern name="aig">
+     <item>bulk</item>
+  </pattern>
+  <pattern name="royal">
+    <item>date</item>
+  </pattern>
+  <pattern name="global">
+    <item>bulk</item>
+  </pattern>
+</pattern.macro.project>

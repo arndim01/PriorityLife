@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Carriers] (Default Constraint)
+       unnamed constraint on [dbo].[Commissions] (Default Constraint)
+       unnamed constraint on [dbo].[CommissionsFile] (Default Constraint)
+       unnamed constraint on [dbo].[Hierarchy] (Default Constraint)
+       unnamed constraint on [dbo].[Salesperson] (Default Constraint)
+       unnamed constraint on [dbo].[Team] (Default Constraint)
+       unnamed constraint on [dbo].[TeamDetails] (Default Constraint)
+
+** Supporting actions

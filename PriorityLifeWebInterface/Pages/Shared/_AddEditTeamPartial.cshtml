@@ -1,0 +1,81 @@
+﻿@using PriorityLifeAPI.Domain;
+@model PriorityLifeWebInterface.PartialModels.AddEditTeamPartialModel
+
+<form method="post">
+    <input type="hidden" asp-for="ReturnUrl" />
+    <div>
+        <fieldset>
+            <legend></legend>
+            <table>
+                @if (Model.Operation == CrudOperation.Update)
+                {
+                    <tr style="display:none">
+                        <td class="editor-label"><label asp-for="Team.Id"></label>:</td>
+                        <td></td>
+                        <td class="editor-field"><input asp-for="Team.Id" readonly="readonly" /></td>
+                        <td></td>
+                    </tr>
+                }
+
+                <tr>
+                    <td class="editor-label"><label asp-for="Team.TeamManager"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><select id="teamManager" asp-for="Team.TeamManager" asp-items="@(new SelectList(Model.SalespersonDropDownListData.OrderBy(o => o.FirstName).ToList(), "Id", "FirstName"))"><option value="">Select One</option></select></td>
+                    <td class="editor-field"><span id="teamManagerValidation" style="color: red;"></span></td>
+                </tr>
+                <tr>
+                    <td class="editor-label"><label asp-for="Team.TeamName"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Team.TeamName" /></td>
+                    <td class="editor-field"><span asp-validation-for="Team.TeamName"></span></td>
+                </tr>
+                <tr style="@(Model.Operation == CrudOperation.Add ?"display:none":"")">
+                    <td class="editor-label"><label asp-for="Team.Active"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Team.Active" type="checkbox" /></td>
+                    <td class="editor-field"></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Team.AddedBy"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Team.AddedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Team.AddedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Team.AddedDate"></label>:</td>
+                    <td><span style="color: red;">*</span></td>
+                    <td class="editor-field"><input asp-for="Team.AddedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Team.AddedDate"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Team.UpdatedBy"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input asp-for="Team.UpdatedBy" /></td>
+                    <td class="editor-field"><span asp-validation-for="Team.UpdatedBy"></span></td>
+                </tr>
+                <tr style="display:none">
+                    <td class="editor-label"><label asp-for="Team.UpdatedDate"></label>:</td>
+                    <td></td>
+                    <td class="editor-field"><input asp-for="Team.UpdatedDate" class="datetextbox" type="text" /></td>
+                    <td class="editor-field"><span asp-validation-for="Team.UpdatedDate"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2">
+                        <br />
+                        @if (Model.Operation == CrudOperation.Add)
+                        {
+                            <input type="submit" asp-page-handler="Add" value="Add" class="button-150" />
+                        }
+                        else
+                        {
+                            <input type="submit" asp-page-handler="Update" value="Update" class="button-150" />
+                        }
+
+                        <input type="button" value="Cancel" onclick="window.location='@Model.ReturnUrl'; return false;" class="button-100" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+</form>

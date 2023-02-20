@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Commissions]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Commissions] (Default Constraint)
+     Table rebuild
+       [dbo].[Commissions] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Commissions_Carriers] (Foreign Key)
+       [dbo].[FK_Commissions_Salesperson] (Foreign Key)
+     Create
+       [dbo].[FK_Commissions_Carriers] (Foreign Key)
+       [dbo].[FK_Commissions_Salesperson] (Foreign Key)
